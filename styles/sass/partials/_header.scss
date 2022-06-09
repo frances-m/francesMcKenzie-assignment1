@@ -1,0 +1,21 @@
+header {
+    background: url(../images/header.jpg) center;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+        margin: 0;
+    }
+
+}
+
+.socials {
+
+    &__icon {
+        width: 1rem;
+    }
+}
