@@ -223,6 +223,27 @@ template {
 
 header {
   background: url(../images/header.jpg) center;
+  background-size: cover;
+  height: 630px;
+}
+
+header * {
+  color: #F6F6F6;
+  font-family: "Poppins", sans-serif !important;
+}
+
+header .wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .header-top {
@@ -235,13 +256,41 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  height: 65px;
 }
 .header-top h1 {
+  margin: 0 0 0 40px;
+  color: #F6F6F6;
+}
+.header-top a {
+  font-size: 0.7rem;
+  margin-left: 20px;
+}
+.header-top nav {
+  margin-right: 20px;
+}
+
+.hero-text {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.hero-text__line2 {
+  font-size: 4.5rem;
   margin: 0;
 }
 
-.socials__icon {
-  width: 1rem;
+.socials-container {
+  height: 33.33%;
+  position: relative;
+}
+.socials-container ul {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.socials-container svg {
+  width: 10px;
+  fill: #215A6D;
 }
 
 .linkbar__icon {

@@ -1,4 +1,4 @@
-@mixin poppinsFont($fontSize) {
+@mixin poppinsFont($fontSize: .9rem) {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: $fontSize;
