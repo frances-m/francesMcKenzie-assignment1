@@ -1,0 +1,74 @@
+footer {
+
+    * {
+        color: $whiteShade;
+    }
+}
+
+.footer-main {
+    background-color: $bgColor;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+
+    
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__container {
+        height: 175px;
+
+        &--left {
+            margin-left: 40px;
+
+        }
+
+        &--right {
+            margin-right: 40px;
+        }
+    }
+
+    &__heading {
+        font-family: 'Poppins', sans-serif !important;
+        font-size: 1.2rem;
+        margin-bottom: 5px !important;
+    }
+
+    p {
+        margin: 0;
+        text-align: left;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    input {
+        height: 50px;
+        border: none;
+        padding-left: 20px;
+        color: $blackShade;
+        width: 300px;
+        margin-top: 20px;
+        font-size: .9rem;
+    }
+
+    button {
+        display: inline-block;
+        margin-top: 20px;
+    }
+}
+
+.juno {
+    background-color: #144454;
+    padding: 5px 0;
+
+    p {
+        margin: 0;
+    }
+}

@@ -495,6 +495,82 @@ header .wrapper {
   width: 330px;
 }
 
+footer * {
+  color: #F6F6F6;
+}
+
+.footer-main {
+  background-color: #215A6D;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.footer-main .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer-main__container {
+  height: 175px;
+}
+.footer-main__container--left {
+  margin-left: 40px;
+}
+.footer-main__container--right {
+  margin-right: 40px;
+}
+.footer-main__heading {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 1.2rem;
+  margin-bottom: 5px !important;
+}
+.footer-main p {
+  margin: 0;
+  text-align: left;
+}
+.footer-main form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.footer-main input {
+  height: 50px;
+  border: none;
+  padding-left: 20px;
+  color: #0F0F0F;
+  width: 300px;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+.footer-main button {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.juno {
+  background-color: #144454;
+  padding: 5px 0;
+}
+.juno p {
+  margin: 0;
+}
+
 /* GLOBAL STYLES */
 html {
   font-size: 125%;
@@ -542,7 +618,7 @@ button {
   font-size: 0.9rem;
   color: #0F0F0F;
   background-color: #8DD7E9;
-  padding: 0 25px;
+  padding: 0 30px;
   height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
