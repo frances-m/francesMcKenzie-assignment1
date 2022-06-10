@@ -1,0 +1,46 @@
+.bio {
+    height: 425px;
+    background-color: $whiteShade;
+
+    * {
+        color: $blackShade;
+    }
+    
+    .wrapper {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+    &__img-container {
+        margin-left: 40px;
+
+        img {
+            width: 250px;
+        }
+    }
+
+    &__text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;   
+        margin-right: 40px;
+        margin-left: 30px;
+        height: 250px;
+    }
+
+    h2 {
+        margin: 10px 0;
+
+    }
+
+    &__text {
+        text-align: left;
+        margin: 0;
+    }
+
+    .button {
+        margin: 0;
+        width: fit-content;
+    }
+}

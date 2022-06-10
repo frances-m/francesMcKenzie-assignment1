@@ -314,7 +314,6 @@ header .wrapper {
   color: #0F0F0F;
 }
 .about h2 {
-  font-size: 1.9rem;
   margin-bottom: 10px;
 }
 .about .button {
@@ -421,6 +420,57 @@ header .wrapper {
   margin: 10px 0;
 }
 
+.bio {
+  height: 425px;
+  background-color: #F6F6F6;
+}
+.bio * {
+  color: #0F0F0F;
+}
+.bio .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+.bio__img-container {
+  margin-left: 40px;
+}
+.bio__img-container img {
+  width: 250px;
+}
+.bio__text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 40px;
+  margin-left: 30px;
+  height: 250px;
+}
+.bio h2 {
+  margin: 10px 0;
+}
+.bio__text {
+  text-align: left;
+  margin: 0;
+}
+.bio .button {
+  margin: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 /* GLOBAL STYLES */
 html {
   font-size: 125%;
@@ -441,7 +491,7 @@ h1 {
 h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.9rem;
   line-height: 26px;
   margin: 0;
 }
