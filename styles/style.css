@@ -471,6 +471,30 @@ header .wrapper {
   width: fit-content;
 }
 
+.gallery {
+  height: 500px;
+}
+.gallery .wrapper {
+  height: 100%;
+}
+.gallery ul {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 40px;
+  padding: 0;
+}
+.gallery img {
+  width: 330px;
+}
+
 /* GLOBAL STYLES */
 html {
   font-size: 125%;
