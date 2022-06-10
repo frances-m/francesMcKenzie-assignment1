@@ -1,0 +1,48 @@
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $whiteShade;
+
+    * {
+        color: $blackShade;
+    }
+
+    div {
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: calc(1280px/2) !important;
+
+        &--left {
+            margin: auto;
+            margin-right: 0;
+        }
+    }
+
+    &__heading {
+        @include poppinsFont(1.5rem);
+        margin: 5px 0;
+    }
+
+    &__text {
+        width: 50%;
+    }
+
+
+    .button {
+        margin: 0;
+    }
+
+
+}
