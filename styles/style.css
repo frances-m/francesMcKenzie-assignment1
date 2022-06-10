@@ -224,7 +224,7 @@ template {
 header {
   background: url(../images/header.jpg) center;
   background-size: cover;
-  height: 630px;
+  height: 640px;
 }
 
 header * {
@@ -271,7 +271,6 @@ header .wrapper {
 }
 
 .hero-text {
-  text-align: center;
   font-size: 1.2rem;
 }
 .hero-text__line2 {
@@ -291,6 +290,33 @@ header .wrapper {
 .socials-container svg {
   width: 10px;
   fill: #215A6D;
+}
+
+.about {
+  height: 400px;
+  width: 675px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.about h2 {
+  font-size: 1.9rem;
+  margin-bottom: 10px;
+}
+.about .button {
+  width: 210px;
+  margin: 5px 0;
 }
 
 .linkbar__icon {
@@ -319,12 +345,14 @@ h2 {
   font-weight: 700;
   font-size: 1.2rem;
   line-height: 26px;
+  margin: 0;
 }
 
 p {
   font-family: "Noto Sans";
   font-size: 0.9rem;
   line-height: 29px;
+  text-align: center;
 }
 
 a {
@@ -343,6 +371,15 @@ button {
   background-color: #8DD7E9;
   width: 300px;
   height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 li {

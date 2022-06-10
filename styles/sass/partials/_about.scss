@@ -1,0 +1,19 @@
+.about {
+    height: 400px;
+    width: 675px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        font-size: 1.9rem;
+        margin-bottom: 10px;
+    }
+
+    .button {
+        width: 210px;
+        margin: 5px 0;
+    }
+}

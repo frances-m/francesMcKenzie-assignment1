@@ -1,7 +1,7 @@
 header {
     background: url(../images/header.jpg) center;
     background-size: cover;
-    height: 630px;
+    height: 640px;
 }
 
 header * {
@@ -40,12 +40,7 @@ header .wrapper {
 }
 
 .hero-text {
-    text-align: center;
     font-size: 1.2rem;
-
-    &__line1 {
-        
-    }
 
     &__line2 {
         font-size: 4.5rem;

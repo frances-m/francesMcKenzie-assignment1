@@ -28,12 +28,14 @@ h1 {
 h2 {
     @include poppinsFont(1.2rem);
     line-height: 26px;
+    margin: 0;
 }
 
 p {
     font-family: 'Noto Sans';
     font-size: .9rem;
     line-height: 29px;
+    text-align: center;
 }
 
 a {
@@ -50,7 +52,9 @@ button {
     background-color: $accentColor;
     width:300px;
     height: 50px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 li {
