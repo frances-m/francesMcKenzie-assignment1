@@ -2,19 +2,23 @@
     display: flex;
     flex-wrap: wrap;
     background-color: $whiteShade;
+    height: auto;
 
     * {
         color: $blackShade;
     }
-
-    div {
-        width: 50%;
-        display: flex;
-        align-items: center;
-    }
     
+    div {
+        width: 50vw;
+        height: 27.93vw;
+    }
+
     img {
         width: 100%;
+    }
+
+    &__img--mobile {
+        display: none;
     }
     
     &__container {
@@ -22,12 +26,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: calc(1280px/2) !important;
 
-        &--left {
-            margin: auto;
-            margin-right: 0;
-        }
     }
 
     &__heading {

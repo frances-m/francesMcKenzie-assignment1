@@ -41,6 +41,18 @@ header .wrapper {
 
 .nav--mobile {
     display: none;
+    height: 23px;
+    width: 23px;
+    margin-right: 5px !important;
+    
+    button {
+        background-color: transparent;
+        padding: 0;
+    }
+
+    svg {
+        fill: white;
+    }
 }
 
 .hero-text {
@@ -67,3 +79,4 @@ header .wrapper {
         fill: $bgColor;
     }
 }
+
